@@ -1,0 +1,27 @@
+.chat-header-block{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.right-block{
+    display: flex;
+    width: 20%;
+    height: 70%;
+    align-self: center;
+    align-content: center;
+    justify-content: space-around;
+} 
+
+@media only screen and (max-width: 768px){
+    .chat-header-block{
+        width:100%;
+    }
+
+    .right-block{
+        display: flex;
+        width: 40%;
+        justify-content: space-between;        
+    } 
+}

@@ -1,0 +1,18 @@
+.profile-container{
+    display: flex;
+    margin: 5px;
+}
+
+.profile-image{
+    width: 35px;
+    height: auto;
+    border: none;
+    border-radius: 50px;
+}
+
+/* @media only screen and (max-width: 768px) {
+    .profile-image{
+        width: 35px;
+
+    }
+} */

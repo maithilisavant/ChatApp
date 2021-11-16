@@ -1,0 +1,29 @@
+.message-container{
+    display: flex;
+    width: 80%;
+}
+.message-block{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: max-content;
+    max-width: 60vw;
+    background-color: honeydew;
+    border: none;
+    border-radius: 30px;
+}
+
+.message-container-left{
+    justify-content: left;
+    text-align: left;
+}
+
+/* .message-block-left{
+    
+} */
+
+@media only screen and (max-width: 768px) {
+    .message-container{
+        width: 100%;  
+    }
+}

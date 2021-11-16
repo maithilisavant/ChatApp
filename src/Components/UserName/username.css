@@ -1,0 +1,45 @@
+.conversation-block{
+    display: flex;
+    width: 20vw;
+    flex-direction: row;
+    position: relative;
+    align-self: flex-start;
+    align-content: center;
+    justify-content: center;
+    /* border: 1px solid rgb(221, 215, 215); */
+
+    background-color: rgb(245, 237, 234);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.conversation-block:hover{
+    border: 1px solid tomato;
+}
+
+.inner-block{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: inherit;
+    /* background-color: lavender; */
+    justify-content: center;
+    align-content: center;
+}
+
+.user-name{
+    display: flex;
+    /* padding: 10px; */
+    font-weight: 500;
+}
+
+/* .recent-text{
+} */
+
+@media only screen and (max-width: 768px) {
+    .conversation-block{
+       width: 100%;
+       border-radius:0;
+    }
+}
